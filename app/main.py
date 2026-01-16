@@ -23,4 +23,3 @@ app.include_router(votes.router)
 @app.get("/")
 def root():
     return {"message": "Your name is awab: You live in qatar: You are 13 year old"}
-
